@@ -324,6 +324,7 @@ AI: [Analyzes top agents from statistics]
         }
     }
 }
+```
 
 ## 📄 License
 
