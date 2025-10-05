@@ -235,7 +235,7 @@ Analyze network topology diagrams.
 ```python
 # Example usage
 process_network_diagram(
-    png_filename="NetDiagram-GOADv3-full.png",
+    png_filename="NetDiagram.png",
     analysis_type="detailed"
 )
 ```
@@ -262,9 +262,6 @@ These limits prevent rate limiting and ensure responsive query performance.
 User: "Show me all critical alerts from the last 2 hours"
 AI: [Uses get_alerts with rule_level=12+, time_range="2h"]
 
-User: "Correlate alerts around alert ID ABC123"
-AI: [Uses correlate_alerts to find related events]
-
 User: "What vulnerabilities were detected on affected systems?"
 AI: [Uses analyze_vulnerability with affected agents]
 ```
@@ -278,8 +275,6 @@ AI: [Uses filter_network_cves with severity="critical", year="2024"]
 User: "Which systems are affected by CVE-2024-12345?"
 AI: [Uses analyze_vulnerability with vulnerability_id]
 
-User: "Show me mitigation recommendations"
-AI: [Provides CVE details and remediation steps]
 ```
 
 ### Example 3: Performance Monitoring
@@ -291,8 +286,6 @@ AI: [Uses get_statistics for system metrics]
 User: "Show alert trends over the last 6 hours"
 AI: [Uses get_alert_statistics for trend analysis]
 
-User: "Which agents are most active?"
-AI: [Analyzes top agents from statistics]
 ```
 
 
@@ -331,7 +324,7 @@ AI: [Analyzes top agents from statistics]
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [mcp-wazuh-py](https://github.com/cyberbalsa/mcp-wazuh-py) by [@cyberbalsa](https://github.com/cyberbalsa) - This project is based on and inspired by this work on Wazuh MCP integration
 - [Wazuh](https://wazuh.com/) - Open source security platform
