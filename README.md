@@ -327,6 +327,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [mcp-wazuh-py](https://github.com/cyberbalsa/mcp-wazuh-py) by [@cyberbalsa](https://github.com/cyberbalsa) - This project is based on and inspired by this work on Wazuh MCP integration
+- [GOAD (Game of Active Directory)](https://github.com/Orange-Cyberdefense/GOAD) by [Orange Cyberdefense](https://github.com/Orange-Cyberdefense) — a pentesting Active Directory lab project that provides vulnerable AD environments for practicing attack techniques.  
 - [Wazuh](https://wazuh.com/) - Open source security platform
 - [FastMCP](https://github.com/jlowin/fastmcp) - Model Context Protocol framework
 - [OpenSearch](https://opensearch.org/) - Search and analytics engine
