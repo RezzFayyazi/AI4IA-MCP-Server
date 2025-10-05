@@ -305,6 +305,26 @@ AI: [Analyzes top agents from statistics]
 **"Connection refused"**: Verify OpenSearch is running and accessible
 
 
+## 🚀 Quick Start with Claude Desktop
+
+### Configuration
+
+1. **Locate your config file:**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+   - **Linux**: `~/.config/Claude/claude_desktop_config.json`
+
+2. **Add the server configuration:**
+```json
+{
+    "mcpServers": {
+        "AI4IA": {
+            "command": "python",
+            "args": ["/absolute/path/to/AI4IA-MCP/mcp_server.py"]
+        }
+    }
+}
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
