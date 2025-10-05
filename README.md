@@ -1,4 +1,4 @@
-# AI4IA-MCP
+# AI4IA-MCP-Server
 A Model Context Protocol Server for Role-Based Learning in AI-Assisted Cybersecurity Incident Analysis with Wazuh SIEM and OpenSearch
 
 
